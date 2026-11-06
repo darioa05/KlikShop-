@@ -41,7 +41,7 @@ public class Prodavnica {
     }
 
     /**
-     * Primenjuje popust na sve proizvode koji implementiraju interfejs Popustljiv.
+     * Primenjuje popust na sve proizvode koji implementiraju interfejs Popust.
      * Vraca koliko je proizvoda dobilo popust.
      */
     public int primeniPopustNaSve(double procenat) {
