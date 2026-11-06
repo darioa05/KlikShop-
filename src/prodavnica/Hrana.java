@@ -1,3 +1,4 @@
+package prodavnica;
 /**
  * Naslednik klase Proizvod. Hrana ima rok trajanja i moze imati popust.
  */
@@ -66,9 +67,4 @@ public class Hrana extends Proizvod implements Popust {
     public String opis() {
         return "[HRANA] " + super.opis() + " | rok: " + danaDoIsteka + " dana | popust: " + popust + "%";
     }
-}
-package prodavnica;
-
-public class Hrana {
-
 }
